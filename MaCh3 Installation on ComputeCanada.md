@@ -24,13 +24,19 @@ But the server from iRODS might be problematic for now, so expect downloading no
 5. change the content in the `setup_niwgreweight.sh` file to the following to make sure of the access to github when using personal token:
 ```
 git clone https://TOKEN@github.com/t2k-software/NIWGReWeight.git
-source setup_niwgreweight.sh
 ```
+then
+`
+source setup_niwgreweight.sh
+`
 6. change the content in the `setup_CUDAProb3.sh` to make sure of the access to github if using personal token:
 ```
 git clone https:/TOKEN@github.com:/dbarrow257/CUDAProb3
-source setup_CUDAProb3.sh
 ```
+then
+`
+source setup_CUDAProb3.sh
+`
 7. `source setup_psyche.sh`
 
 8. T2KSKTool. This package is remotely stored on GitLab. First check the ability to get to gitlab and follow the instructions to add public key of the cluster to your personal account on gitlab.
