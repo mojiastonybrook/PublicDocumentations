@@ -12,7 +12,8 @@ git clone https://TOKEN@github.com/t2k-software/MaCh3.git
 
 3. change the directory into the MaCh3 directory and check out `DBarrow_JointFit` branch
 
-4. `Source SetMeUp.sh` file
+4. `Source SetMeUp.sh`
+
 install root, cmt, irods, niwgreweight if asked; 
 
 IRODS settings:
